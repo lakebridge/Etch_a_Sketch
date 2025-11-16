@@ -26,9 +26,13 @@ body, html {
     align-items: center; */
     /* width: 100 px;
     height: 100 px; */
-    background-color: rgb(0, 62, 82);
+    background-color: rgb(241, 230, 255);
     border: 1px solid black;
     aspect-ratio: 1 / 1;
     width: 6.25%;
     height: inherit;
+}
+
+.changeColor {
+  background-color: black;
 }
