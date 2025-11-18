@@ -29,7 +29,7 @@ body, html {
     background-color: rgb(241, 230, 255);
     border: 1px solid black;
     aspect-ratio: 1 / 1;
-    width: 6.25%;
+    /* width: 6.25%; */
     height: inherit;
 }
 
