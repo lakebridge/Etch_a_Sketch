@@ -44,7 +44,11 @@ const btn = document.querySelector("button");
 function respToBtn(e) {
     if (e) {
         e.preventDefault();
-        numOfSquares = inp.value;
+        if (inp.value>100) {
+            numOfSquares = 100;
+        }
+        else numOfSquares = inp.value;
+        
         inp.value = 0;}
     
     console.log(numOfSquares);
